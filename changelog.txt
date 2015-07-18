@@ -1,0 +1,621 @@
+				############# CHANGE LOG (started 15.8.2005) #############
+
+===========v1.4============ (26.6.2007)
+
+0.2.72 (9.7.2009)
+- Fixed hotkeys for all new/changed heroes (should work with 6.60b+) (thx Koty)
+
+Long time no see ~_~. I'm sorry to all who was expecting an update eariler, but i've quit
+dota some time ago and somehow stoped updating DK whatsoever. If there is anyone out there
+who want to continue in my work and do some updates, please leave a message
+at dota.keys@gmail.com 
+
+0.2.71 (25.10.2008)
+- Fixed minor bug with new heroes (thx LentilkaMan)
+
+0.2.7 (24.10.2008)
+- Added codes for new heroes (Admiral, Windrunner, KOTL) (thx LentilkaMan)
+- Added solution for Invoker (experimental, more info here: http://dotakeys.3.forumer.com/index.php?showtopic=883)
+- Re-added arrowkeys remapping (thx sohun)
+
+note: behaviour of remapped arrowkeys may be slightly different than standard behaviour
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.7.zip
+
+0.2.61 (7.8.2008)
+- Added code fore new hero (Clockwerk Goblin) (thx pineapplenz)
+- Added Danish translation (thx killer_bonzai)
+
+0.2.6 (31.5.2008)
+- Added missing autocasts (thx Exodus)
+- Fixed quick messages labels (thx Exodus)
+- Fixed (jungle) Ursa's stomp hotkey (txh Beto)
+- Fixed some minor problems caused by autocast
+- Added turkish translation (thx Dark-Abyss)
+
+note: just a small fix =)
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.6.zip
+
+0.2.5 (12.5.2008)
+- Fixed Abaddon's hotkeys (thx Lobuh)
+- FIxed bug with not saving Quick Messages on exit
+- Added loading language constants
+- Changed how "Show CP on startup" works. Not it only hide window, but you can bring it back 
+  by clicking on the icon in tray
+- Added AUTOCAST function (Developed by Kitt) *
+- Source codes are distributed with DK now.
+
+note: I want to introduce new member of the DotaKeys team "Kitt". He is a second programmer of the DK project.
+His first task was to implement autocast function which he did amazingly fast and nicely :) Welcome.
+
+* Database of herocodes has been edited, however there might be some autocasts missing. If you find some error,
+  please report it. (and you can update your settings through preferences -> custom codes)
+  Also, if the autocast function doesn't work, check if you have new dotakeys.exe on your machine. If it's not upadted, use
+  link below
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.5.zip
+
+0.2.2 (19.2.2008)
+- Added support for lifebars in german version of W3
+- Added Settings updater (so DK is able to modify settings.ini after update, for example to setup
+  new entries)
+- Added feature to remap Patrol command (thx Don86)
+- Fixed updater bug
+
+note: there is a bug in the updater, please follow the instructions in "UPDATER_ERROR_READ_THIS.TXT"
+file to solve it (i know the name of file is stupid, but i hope you guys will notice it :D)
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.2.zip
+
+0.2.1 (7.2.2008)
+- Added Invoker's herocode
+- Updated Omniknight's hotkeys
+- Fixed bug with "Select hero" (F1) remap (thx to setandan)
+- Quick messages are now saved when changed/on exit (thx Nisroch)
+- Fixed some minor bugs (i like this sentence :D)
+- Added languages: French (by Nisroch)
+                   Chinese (simplified and traditional - both by damfu)
+
+note: If you find any skill that have changed hotkey (due to 6.50 update), please let me know
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.1.zip
+
+0.2.0 (16.1.2008)
+- Auto-update DONE. Complete remake, i tried to fix all the bugs from the past
+- Fixed content from 0.1.6
+- Language loading is fixed (when some string is missing, English default is used)
+  Also new languages was added (If the language file is not up-to-date, please send
+  me strings that dont work for you - this is because i am still adding new content)
+- Fixed assigning space as a hotkey
+
+note: I am happy that people contribute with translations, keep it coming :)
+Please read all of the 1.4 changes, its iportant to know what to expect (this is first 1.4
+public release with autoupdater :))
+
+Also, please enable update check on startup if you havent already.
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.2.0.zip
+
+0.1.6 (4.1.2008)
+- Custom "hero codes" & editing of current are now supported (with full-featured wizzard)
+- Added more options in preferences (and finished all that was not working)
+- All buttons except Macro should now work
+- Error handlers done
+- Loading bar done 
+- Tray Menu options should work
+- Added option to remap Hero select (F1) - this was suggested by HellbirD - thx
+- Fixed Naix's & Templar Assasin's hotkeys
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.1.6.zip
+
+0.1.5 (10.9.2007)
+- Preferences "Settings" panel works.
+- Lagnuage setting works. Now you can create your own translations. Currently, english
+  and slovak is supported.
+- Setting of "Order" keys (move, hold etc) done. You can set original keys of your
+  translation of W3 (like attack is A in english but Z in czech and so)
+- Mouse 4/5 binding added (not tested so much, feedback is welcomed)
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.1.5.zip
+
+0.1.4 (26.8.2007)
+- Health bar done. Now it autorefresh when you alt-tab to/from win or press [] keys
+  (refresh every 3 sec)
+- Preferences window done (40%). If you want to change something, you have to edit
+  settings.ini for now.
+- Many minor improvements of previous features.
+- Custom hero codes now supported. You can edit data\customcodes.ini. There will be a
+  "wizzard" for this later.
+- Fixed few Editor GUI problems.
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.1.4.zip
+
+0.1.3 (19.7.2007)
+- Keys editor done. You can save/load profiles and edit most action keys
+- Herocodes done. Codes are now load from ini file in data directory, so you can
+  add your own for new heroes etc. Custom codes will be supported (for other games,
+  i use it for TBR for example)
+- "F7" procedure done.
+- CTRL+L hotkey is registred for "hotkeylist" command, its for debugging only.
+ (show list of all hotkeys)
+
+Download sources of this version here: http://www.gjgt.sk/~fuller/dotakeys/1.4/dk1.4-0.1.3.zip
+
+(Versions 0.1.1 and 0.1.2 just fixed bugs from 0.1.0 so changelog is not needed at all)
+
+0.1.0
+- From now DK will not use win registers, so it will be much more portable
+- .INI Loading functions done.
+- Customizable hotkeys done. Now it can be edited only through .INI file.
+- Added more "debug" messages. (what and when an error ocured), so it will be easier to
+  report it.
+- New GUI. I removed all old useless stuff from there. Now i have lot of space for new content.
+- Added customizable "command" hotkeys. With this you can change base keys for
+  move, attack, etc. (its diferent in various languages). Now can be customized
+  only through .INI file.
+- Added new feature (optional) witch disable hotkeys everywhere except W3.
+  Recommended to disable only for testing purposes.
+- All keys are now customizable. Not only skills, commands, etc.. but also start/toggle,
+  quick messages and all others (F3-F9 in all older versions).
+
+
+note:
+The 1.4 version is (will be) COMPLETE REMAKE of DotaKeys. I have lot of ideas from the 
+past 2 years, from my head and from yours, and i still have new (and you too) and the
+old core has been just too unstable and bad coded to do some "major upgrading" Now i try 
+to code in the way i can change it easier in future (which was not my intention when i 
+firstly published it :D I expected maybe 500 users, not 55000 @_@)
+
+Thanx to all of you who still support this project and use it (and i hope like it)
+
+note2:
+Counting system is changed (again), because this is not stable and final release of 1.4.
+The new versions starts from 0.0.0
+When 1.4 will be out, ill come back to old system so 1.4.0 => 1.4.1 etc... :) now i make lot of 
+versions for betatesters, and i need it for better debugging and stuff ... (i have versions like
+1.4-0.1.5r165 ~~) But remember its still 1.4 so its better then 1.32 :D
+
+note3:
+I decided to distribute DK along with all the sourcecodes of actual release, you can find link to download
+in this file or just check .ahk files in your dotakeys installation folder.
+
+
+
+
+===========v1.32=========== (14.10.2006)
+
+.07 (4.1.2008)
+- Fixed Naix and Templar assasin
+- Added news panel
+- Fixed some minor bugs, check forums if you want more details
+
+note: Happy new year to all of you :)
+
+.06 (24.8.2007)
+- Fixed autoupdate bug, when FTP is offline and it tries to update (which leads to crash)
+- Added new hero, Faerie dragon
+
+note: Version 1.4 is in progres, first beta versions can be found on our homepage.
+I strongly recommend you to watch over it, because it will be much more stable then
+current version. Im redoing it from scratch and evading old bugs. You can check it
+over here, in few days there will be working version with all basic stuff (no macro)
+http://dotakeys.3.forumer.com/index.php?showtopic=744
+
+.05 (16.6.2007)
+- Fixed bug when changing strings (language.ini) for tabs in Preferences caused error (thx Flowy)
+- Fixed bug in Macros, when sending {enter} do not change Chat status (thx Flowy)
+- Fixed minor bug with scroll lock and chatmode (again thx Flowy xD)
+- Fixed bug that disabled translating editors
+- Added few new commands for macro, including Mouseclick and mousemove. Find more in readme.
+
+note: There might be problem when launching DK with shortcut, when it will not load strings
+from language.ini. To solve this just create new shortcut from w3\dota keys\source\dotakeys.exe
+Expect more "macro" features in future, i have some cool ideas.
+
+.04 (6.6.2007)
+- Added 6 new heroes
+- Reworked hero loading procedure (only program code, it still work the same way)
+- Added language support. Now in dk\source directory is language.ini file.
+  You can change labels here to customize it. If you create some complete translation,
+  you can upload file on our forums here: http://dotakeys.3.forumer.com/index.php?showtopic=674 .
+  If you want more info you can write me on forums/ICQ (320-082-612) or catch me on IRC
+  #das.net@quakenet.org.
+
+note: New version of dotakeys for MACs is being developed. If you know some1 with mac
+playing dota you can send him here to help us test it.
+http://dotakeys.3.forumer.com/index.php?showforum=48
+
+.03 (6.1.2007) 
+- Fixed Maapo loading command
+- Fixed bug with loading profile, when it "succesfuly" loaded corrupted file
+- Fixed minor "Options GUI" bug 
+- Rearranged buttons in DK Editor (Open, save, save as, clear, clear all, default, exit)
+- Added DPS counter (more info in readme for .04, as im unable to change it now)
+  Command /dps. When u type this it should clear console. Then type "IAS DMG "
+  IAS is your total agility (base + green bonus) and % IAS from items.
+  50 base agi + 13 bonus agi and PT (35%) is 98 IAS
+  DMG is your average damage per hit. IE 67-81(+25) is (67+81)/2 = 74(+25) = 99.
+  Your input in this case will be: "98 99 "
+
+.02 (2.1.2007)
+- Added new Heroes
+- Fixed typo (thx ~Bata~)
+
+.01
+- Added new Hero
+
+.00
+- Added tooltips for Editors
+- Added option that allows you to start BanList with dotakeys
+- Added translator of hotkeys in Macro editor. Now it displays Ctrl + Shift + Alt + R
+  instead of +!^R
+- When you change active window and swithc back to ME, edit/add dialog is still on top
+- Removed border on "Add hotkey" dialog in DKE
+- Fixed bug when u could Add and Edit macro in same time (it produced very nice error)
+- Slightly resized ME GUI
+- Slightly resized DKE GUI due to "creep button" row
+- Fixed About GUI
+- Now you dont need to reboot after you change some macro
+- Perma Alt functions should work for these languages now: English, Czech, German, French, Polish
+- remade "Autoupdate". Now has nice GUI and more functions...
+- Some icons & images are "compiled" within dotakeys.exe
+- Fixed bug when u open profile, that is not in DK/source and press save, it make new file there
+  instead of rewriting old
+- Save as in DKE in now displayed as OWNED UGI
+- U can USE CREEP SKILLS NOW !!! You can define hotkey for all creeps/sumons skills, and/or
+  enable option that assign it also to 5th skill button, coz it used only by 4-5 heroes already.
+  You can use 5th skill button and special "Creep skills" button simultaneously...
+- When u click on tray icon, all windows will minimize, not only CP :)
+- Fixed Macro editor "Delete" bug
+- Fixed Chatmode and mousewheel bug (Thx DarK.FoRcE- from forum (501))
+- Fixed Bug in ME when it allows you to edit non-existing macro
+
+===========v1.31=========== (22.7.2006)
+
+.93 (26.9.2006)
+- Fixed Item 5&6 saving issues (thx Gereph)
+- Small About GUI changes
+
+.92 (22.9.2006)
+- Updated Readme.chm
+- Fixed HP bars for CZ version
+- Fixed ME error when u quit edit/add window
+- Added dialog before u delete macro
+
+.91 (10.9.2006)
+- Fixed remaping of arrowkeys
+- Fixed ME bug when u cancel hotkey edit window
+note: more will come in near future, now im going away for 3 days
+so next will be maybe 16-17 of september
+
+.9 (6.9.2006)
+- Slightly modified main GUI
+- Added message after loading profile
+- Now you cant click on buttons in ME when creating/editing macro
+- Autoscan of hotkey in ME
+- Minor fixes
+- Fixed MouseWheel (thx h3artl3ss from forum (428))
+
+.81 (26.8.2006)
+- Quick fix of new heroes (thx PortageLakes)
+
+.8 (26.8.2006)
+- Added two new heroes (Alchemist & Warlock)
+
+.72 (18.8.2006)
+- Fix (i really hate this :D, many thx to Fuller for help)
+
+.71 (18.8.2006)
+- Fix (i hate this :D)
+
+.7 (18.8.2006)
+- Save and Load restored
+- Help file finally work
+- !!! ONE YEAR OF DOTAKEYS !!!
+
+.61 (13.8.2006)
+- Quick fix
+
+.6 (13.8.2006)
+- Few bugs fixed, nothing special
+
+.53 (4.8.2006)
+- Autoupdate bug Finally fixed (thanx Fuller)
+- Macro editor improved slightly
+note: Final patch :) bug was removed. Expect 1.31.6 in near future 
+
+.52 (2.8.2006)
+- Another patch to autoupdater bug, when readme dont work after update
+- Upgraded autoupdate, now shows % of update :)
+note: this should be last .5 patch, i hope. Sorry for often releases (3 today :D)
+im goin sleep now :))
+
+.51 (2.8.2006)
+- Sorry but another Error was found and update was needed
+note: only quick patch to .5
+
+.5 (2.8.2006)
+- Fixed typo on many msgboxes and so
+- Fixed autoupdate slightly
+
+.4 (1.8.2006)
+- Added picture of item positions in editor
+- Editor GUI is larger (to see all hotkeys without scroling)
+- Editor (DK & Macro) MsgBox-es (windows with text "Do you want to save...) remade
+- Removed BUBBLE window after instalation
+- Removed Reboot from Main Panel (but still in tray)
+- Added Macro button on Main panel
+- Added hyperlink in Macro editor. There u can see some examples and short guide
+- When u exit Macro/DK editor and made some changes it'll ask u to save or not
+- Slighly improved "About" window GUI
+- Now u can leave Macro/DK editor by pressing ESC
+- Added BIG button for online registration
+
+note: This version should be stable now. Lot of changes made from 1.31.0-4 is mostly
+about GUIs and "look" of Dk/Editors and fixing new things. (10 days from .0)
+
+.3 (29.7.2006)
+- Fixed Editor bug (thx Mithrandir)
+- Added Delay command in macro editor
+- Now u can NOT trigger "macro hotkey" in macro. So u can use macro with hotkey
+  ALT+S to start countdown 10,9,8,7,6 and press ALT+S to start game (and not to trigger
+  macro again)
+- remade execution of macro, now use clipboard to write text (MUCH FASTER)
+- remade installer
+- Now u dont need instal in war3 folder
+- Now after update Changelog appear
+- Added Autocast (more in readme)
+- Added Chatmode (more in readme)
+- Fixed bug with deleting macros (it worked very strange way)
+
+.2 (28.7.2006)
+- Improved Editor featuers
+- Slightly improved GUIs of editors
+- Fixed bug when all hotkeys was set to same key (rarely)
+
+note: now u can click anywhere on row u want to edit in editor
+
+.1 (23.7.2006)
+- Fixed CRITICAL bug with editor (thx zaqer50 & guys from forum)
+
+.00
+- Removed EDITOR.exe
+- remade EDITOR. Editor is now part of DotaKeys.exe
+- New editor GUI
+- Removed Save 'n Load in editor, coz no one used it
+- Added Macro editor. More in readme
+- New .chm readme
+- New autoupdate.exe
+- Fixed activating main panel after options/about exit
+- Optimalized. Now use less memory (quite)
+- remade loopcheck of hotkeys, now use static one (faster)
+- remade life function. Now u cant toggle it off, just remove hotkey for it
+- New installer 
+
+===========v1.30=========== (26.5.2006)
+
+.99
+- This was verison only with link for new istaller, because it was needed to reinstall
+and not autoupdate coz old updater could not update new files.
+
+.8
+- Fixed problem with queing commands with SHIFT, now it works properly (i hope)
+- Disabled Autocast function, it need remake
+
+.7
+- Added minor stuff, that write your name to reg after u change name on CP, so u dont get msg
+"U are not logged in"....
+
+.6
+- remade Main GUI slightly
+- Fixed Bug with QM edits, when it didnt fade and didnt change status value
+- Fixed typo on some new/remade heroes & in options
+
+.5
+- Fixed some minor bugs
+
+.4
+- Fixed bug with Minimap Ping & New toggle key
+
+.3  (12.6.2006)
+- Added Toggle ALT function key in editor (so u can customize it)
+- Added Minimap ping in editor
+
+.2  (1.6.2006)
+- Fixed .33 DotA heroes Rmks (thanks -Frankie- for help)
+
+.00
+- Comletely new source of DK (!! lot of work)
+- Fixed heroes that change (enchantres's ulti, rexxar...)
+- New Autoupdater
+- Fixed arrows keys & hero center
+- Added German support
+
+
+note: -it looks as 1.27+, but it's lot difference, coz source remake, and i can better debug it etc
+      -new versions system, added more numbers, coz i update it often, and so i can quickly 
+      run out of numbers :D. And saving 2.0 for some megachange in future...
+      (now x.x.x instead of x.x)
+
+===========v1.27=========== (26.4.2006)
+
+.4
+- Fixed bug with SILENT MODE
+
+- Autoupdate added
+- New "options" GUI
+- some bud fixed (as usual)
+- added option to disable LED
+- fixed bug, when u update DK, it dont update uninstall version
+- fixed bug, when u update DK, u no more loose all settings
+- fixed small options GUI bug
+- added FULL SILENT MODE
+
+
+===========v1.26=========== (28.3.2006)
+
+- remade Status toggle & LED
+- U can disable using F3-F6 (Quick Messages)
+- U can use MouseWheel
+- Slightly remade DKE interface
+- DK now WISPER TO YOU all messages (on, off, hero etc...)
+  So no else see it. (Some people think, that u are cheater
+  when see this messages)
+- Removed 4th & 5th mouse button (many problem here, maybe i
+  rework it in some future version)
+- Fixed some Heroes activation codes and hotkeys
+
+===========v1.25=========== (20.3.2006)
+
+- Fixed F7 procedure
+- Added 4th & 5th mouse button
+- When u reinstall DK, it remember your last config (options, keys...)
+- when u start DKE, actual config will be loaded.
+
+===========v1.24=========== (10.3.2006)
+
+- Fixed One critical bug
+- Returned Battle.net autologon function
+- Added (De)Activate button on CP
+- Fixed Editor Load/Save/Save as bugs (i hope that all :)
+- Added Chat command \load. More in readme
+- Added "Quick message" Function. More in readme
+- remade Permanent Alt Function and renamed to "Perm. Life Fun."
+
+
+===========v1.23=========== (3.3.2006)
+
+- This version fixed two critical bugs in v1.22
+- Nothing else
+
+
+===========v1.22=========== (24.2.2006)
+
+- In this version was removed WarPath (it was added to DK)
+Since now all changes are olny about DK
+
+- Fixed some bugs
+- Added 5th and 6th skill
+- Added new 6.28 DotA Heroes
+- remade Editor (completely, but still some known bugs here -> PLS report)
+- remade DK interface (a bit and it is not visible :)
+- Added Load Profile in DK File menu (more in readme)
+- remade ReadMe (finally :)
+- ToolTip Added
+- DK automaticly shutdown, when u exit W3
+- remade Installer of DK (little changes)
+- Uninstaller fixed
+- Reduced space of Installer to 329kb
+
+
+===========v1.21=========== (1.2.2006)
+
+- DotaKeys
+	- Writing status now functions properly
+	- Now write small instructions at binding (to make it easier for n00bz :)
+	- Some bugs that comed with new system was solved
+	- Autobind function added. More in ReadMe
+	- Console commands added
+	- "Permanent ALT" function added
+
+
+===========v1.20===========
+
+- DotaKeys
+	- Totally new system of setting shortcuts. More in ReadMe
+
+
+===========v1.14===========
+
+- New icon of installator (warpath)
+- DotaKeys
+	- Removed BNET button due to problems with connection time (every man hasn't the same :)
+
+
+===========v1.13===========
+
+- New Installator (created by NSIS)
+- Size of Installator reduced to 0.95 MB from 2.1 MB :-)
+- DotaKeys
+	- Add options submenu to the traymenu
+	- Add function to disable showing Control panel (u can set it back in Traymenu --> OPTIONS)
+
+
+===========v1.12===========
+
+- Add Menu bar to EDITOR (to save,open profiles)
+- Picture in EDITOR now shows to edits (red / orange lines)
+- DotaKeys
+	- Add Control panel in DotaKeys. More in "How to use DotaKeys"...
+
+
+===========v1.11===========
+
+- Fix EDITOR bugs
+- New installator design
+- New EDITOR design
+- DotAKeys
+	- Now is shortcut in war3 dir (But still is one at desktop. 
+	If u delete your desktop shortcut, u can run this one)
+
+
+===========v1.10===========
+
+- New installator design (Pictures...)
+- DotaKeys EDITOR now available
+- DotAKeys
+	- No more program run when u quit warcraft
+
+	
+===========v1.06===========
+
+- Fixed bug when u selecting War3 directory and click to install,
+  the program run and install components to default dir
+- New icon (Force of nature)
+
+
+===========v1.05===========
+
+- New Design (button layout, Bonus button disabled)					
+- U can now choose from menu which files u want to install (Register,DotaKeys ...)				
+- Corrected typo								
+- There are no multiple installators now
+- Default path is now function (c:\Program Files\Warcraft)					
+- Dynamic "space requiments"							
+- DotaKeys
+	- Now u can disable hotkeys with ENTER push (to chat),
+	when u push ENTER again (to send message), hotkeys are
+	automaticly enabled							
+	- New icon (WIII : TFT)
+	- No more my name at Bnet/LAN NameBar :(( 				
+
+
+===========v1.04===========
+
+- New Desing (whole installator)
+- Added BONUS Button --> to install DotaKeys
+- Added Installator (created in WinRar) to spare Disk space
+
+
+===========v1.03===========
+
+- Now work with all resolutions
+- Add Free Space control
+- Disable editting of EDIT 3 (with a path) because many bugs here
+- New font
+
+
+===========v1.02===========
+
+- New buttons (bigger)
+- New layout of allmost all items
+
+
+===========v1.01===========
+
+- Many bugs solved
+
+===========v1.00=========== (15.8.2005)
+
+- First release
